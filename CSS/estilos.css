@@ -1,0 +1,576 @@
+/* FUENTE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,700;0,800;1,400&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 100%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* TITULOS */
+h1 {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	color: #D9B64E;
+	font-weight: 800;
+}
+
+h2 {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	color: #D9B64E;
+	font-weight: 800;
+	
+}
+
+h3 {
+	color: #D9C589;
+}
+
+figcaption {
+	text-align: center;
+}
+
+section {
+	-webkit-box-shadow: 0px 2px 8px 2px rgb(122 122 122 / 67%);
+    -moz-box-shadow: 0px 2px 8px 2px rgba(122,122,122,0.67);
+    box-shadow: 0px 2px 8px 2px rgb(122 122 122 / 67%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 20px; 
+}
+
+/* LINKS */
+
+a {
+	color: #D9C589;
+}
+
+/* BODY */
+#main-content {
+	width: 80%;
+	margin: auto;
+}
+
+#maincontent {
+	width: 80%;
+	margin: auto;
+}
+
+.lista-archivo ul li{
+	list-style-type: square;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.migajas {
+	margin-left: 5rem;
+    margin-top: 1em;
+}
+
+/* MENU */
+.menu-bs  {
+	background: #D9B64E;
+	width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+
+#navbarSupportedContent a:hover {
+	color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff !important;
+}
+
+
+/* MENU */
+
+
+#menu {
+	background: #D9B64E;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+}
+
+
+
+.contenedor {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.menu-items ul {
+	padding: 0;
+	margin: 0;
+}
+
+.menu-items a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.menu-logo {
+	margin-right: 50px;
+}
+
+.menu-items a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+
+#menu nav li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#menu nav a:hover {
+	color: grey;
+}
+
+#menu nav a.active {
+	text-decoration: underline;
+}
+
+
+#menu nav ul {
+	position: relative;
+}
+
+#menu nav ul > li {
+	position: relative;
+}
+
+#menu nav ul > li:hover ul {
+	display: block;
+}
+
+#menu nav ul ul {
+	display: none;
+	padding: 20px;
+	text-align: center;
+	width: 200px;
+	background-color: #B04900;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+}
+
+#menu nav ul ul:hover {
+	color: white;
+}
+
+#menu nav ul ul li {
+	display: block;
+	position: relative;
+}
+
+.blog_button {
+	padding: 8px;
+	color: black !important;
+	background-color: white;
+	border-radius: 4px;
+
+	transition-property: background color;
+ 	transition-duration: 0.3s;
+  	transition-timing-function: linear;
+  	transition-delay: 0s;  	
+}
+
+.blog_button:hover {
+	background-color: #B04900;
+	text-decoration: none !important;
+	color: white !important;
+}
+
+/*  TOP MENU */
+
+#top {
+	display: flex;
+	background: #B04900;
+	height: 50px;	
+	width: 100%;
+
+}
+
+.topmenu {
+	margin: auto;
+	width:80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.topmenu__nav {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.topmenu__ul {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.topmenu__li {
+	display: inline-block;
+}
+
+.topmenu__link {
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.topmenu__link:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.topmenu__boton--a {
+	font-size: 12px;
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+	background-color: none;
+	text-decoration: none;
+}
+
+.topmenu__boton--a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.topmenu {
+	box-sizing: border-box;
+	
+}
+
+
+.contact_button {
+	display: block;
+    background-image: url('../img/contacto.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+
+#inicio-seccion {
+	background-color: gray;
+	padding: 25px;
+}
+
+/* SECCION LA ESCUELA */
+
+#la-escuela {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.escuela__boton {
+	margin: auto;
+}
+
+.escuela__boton--a {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	background: #B04900;
+	color: white;
+	padding: 20px;
+
+	transition-duration: 1s;
+ 	transition-timing-function: ease;
+  	transition-delay: 0s;
+}
+
+.boton-escuela:hover {
+ 	color: black;
+ 	background: linear-gradient(#D9B64E , #d9b989);
+}
+
+
+
+/* SECCION QUIENES SOMOS */
+
+#quienes-somos {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.quienes-somos__img  {
+	width: 100%;
+}
+/* SECCION DONDE ESTAMOS */
+
+#donde-estamos {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+/* SECCION GALERIA */
+
+.modal-content {
+    width: fit-content !important;
+}
+
+.modal-dialog {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-close {
+	margin: auto;
+}
+
+.galeria__contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#galeria {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+}
+
+.galeria__miniatura img {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+
+.galeria__miniatura button {
+	border: 0;
+}
+
+
+.galeria__miniatura:hover {
+	transform: scale(1.5);
+	transition: 800ms ease;
+	box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* SECCION CONTACTO */
+#contacto {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.contacto__info {
+	margin-top: 20px;
+}
+
+.contacto__enlace {
+	display: block;
+	padding: 2px;
+	text-decoration: none;
+	font-weight: 800;
+	color: #B04900;
+
+}
+
+
+
+.phone_button a {
+	margin-left: 100px;
+}
+
+textarea {
+	font-family: 'Raleway';
+	padding: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 7px;
+	margin: 5px 5px 5px 0px;
+	font-family: 'Raleway';
+}
+
+.consulta-form {
+	height: 100px;
+	width: 100%;
+}
+
+.check {
+	width: 10%;
+} 
+
+.contacto-boton {
+	width: 100%;
+}
+
+.contacto__formulario {
+	margin-top: 20px;
+}
+
+/* FOOTER */
+
+#footer-web {
+	background: #B04900;
+	padding-top: 20px;
+	margin-top: 20px; 
+}
+
+footer {
+
+	margin: auto;
+	color: white;
+
+}
+
+.row-footer {
+	align-items: center;
+}
+
+.footer-logo img {
+	display: block;
+	margin: auto;
+	filter: invert(100%);
+
+}
+
+.copyright p {
+	margin: 0;
+	text-align: center;
+}
+
+/* BLOG */
+
+.main_content {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;	
+}
+
+.contenedor-entradas {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contenedor-entradas h2 {
+	text-align: left !important;
+	font-size: 30px;
+	margin: 0;
+}
+
+.contenedor-entradas img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.boton-entradas {
+	display: block;
+	width: 20%;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	background-color: #B04900;
+}
+
+.boton-entradas:hover {
+	background-color: #D9B64E;
+	color: black;
+}
+
+.fecha-entrada {
+	margin: 0;
+}
+
+/* LA ESCUELA PAGE */
+
+.contenedor-escuela {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.main_content_escuela {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.main_content_escuela p {
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.img-escuela {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.escuela-middle-section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+}
+
+.img-escuela-2 {
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
